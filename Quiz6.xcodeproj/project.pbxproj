@@ -21,6 +21,9 @@
 		2597A10E18E5FC3C0018AB44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2597A0F018E5FC3C0018AB44 /* UIKit.framework */; };
 		2597A11618E5FC3C0018AB44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2597A11418E5FC3C0018AB44 /* InfoPlist.strings */; };
 		2597A11818E5FC3C0018AB44 /* Quiz6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2597A11718E5FC3C0018AB44 /* Quiz6Tests.m */; };
+		25E585E818E63DCE0024D34D /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E585E718E63DCE0024D34D /* Task.m */; };
+		25E585EC18E64FC40024D34D /* Quiz6DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E585EA18E64FC40024D34D /* Quiz6DetailViewController.m */; };
+		25E585ED18E64FC40024D34D /* Quiz6DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E585EB18E64FC40024D34D /* Quiz6DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		2597A11318E5FC3C0018AB44 /* Quiz6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz6Tests-Info.plist"; sourceTree = "<group>"; };
 		2597A11518E5FC3C0018AB44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2597A11718E5FC3C0018AB44 /* Quiz6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz6Tests.m; sourceTree = "<group>"; };
+		25E585E618E63DCE0024D34D /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		25E585E718E63DCE0024D34D /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		25E585E918E64FC40024D34D /* Quiz6DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz6DetailViewController.h; sourceTree = "<group>"; };
+		25E585EA18E64FC40024D34D /* Quiz6DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz6DetailViewController.m; sourceTree = "<group>"; };
+		25E585EB18E64FC40024D34D /* Quiz6DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Quiz6DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +120,16 @@
 		2597A0F218E5FC3C0018AB44 /* Quiz6 */ = {
 			isa = PBXGroup;
 			children = (
+				25E585E618E63DCE0024D34D /* Task.h */,
+				25E585E718E63DCE0024D34D /* Task.m */,
+				25E585E918E64FC40024D34D /* Quiz6DetailViewController.h */,
+				25E585EA18E64FC40024D34D /* Quiz6DetailViewController.m */,
+				25E585EB18E64FC40024D34D /* Quiz6DetailViewController.xib */,
+				2597A10118E5FC3C0018AB44 /* Quiz6ViewController.h */,
+				2597A10218E5FC3C0018AB44 /* Quiz6ViewController.m */,
 				2597A0FB18E5FC3C0018AB44 /* Quiz6AppDelegate.h */,
 				2597A0FC18E5FC3C0018AB44 /* Quiz6AppDelegate.m */,
 				2597A0FE18E5FC3C0018AB44 /* Main.storyboard */,
-				2597A10118E5FC3C0018AB44 /* Quiz6ViewController.h */,
-				2597A10218E5FC3C0018AB44 /* Quiz6ViewController.m */,
 				2597A10418E5FC3C0018AB44 /* Images.xcassets */,
 				2597A0F318E5FC3C0018AB44 /* Supporting Files */,
 			);
@@ -232,6 +245,7 @@
 				2597A10518E5FC3C0018AB44 /* Images.xcassets in Resources */,
 				2597A0F718E5FC3C0018AB44 /* InfoPlist.strings in Resources */,
 				2597A10018E5FC3C0018AB44 /* Main.storyboard in Resources */,
+				25E585ED18E64FC40024D34D /* Quiz6DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E585EC18E64FC40024D34D /* Quiz6DetailViewController.m in Sources */,
+				25E585E818E63DCE0024D34D /* Task.m in Sources */,
 				2597A0FD18E5FC3C0018AB44 /* Quiz6AppDelegate.m in Sources */,
 				2597A10318E5FC3C0018AB44 /* Quiz6ViewController.m in Sources */,
 				2597A0F918E5FC3C0018AB44 /* main.m in Sources */,
@@ -461,6 +477,7 @@
 				2597A11D18E5FC3C0018AB44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2597A11E18E5FC3C0018AB44 /* Build configuration list for PBXNativeTarget "Quiz6Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +486,7 @@
 				2597A12018E5FC3C0018AB44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
